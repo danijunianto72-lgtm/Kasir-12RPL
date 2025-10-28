@@ -220,6 +220,7 @@ private void filterCMB() {
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         tableDetail = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tableRiwayat = new javax.swing.JTable();
@@ -296,6 +297,9 @@ private void filterCMB() {
         );
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 1030, 330));
+
+        jLabel1.setText("*Klik kolom untuk melihat detail");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 70, -1, -1));
 
         jPanel4.setBackground(new java.awt.Color(242, 236, 228));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Riwayat Transaksi"));
@@ -999,6 +1003,7 @@ this.dispose();        // TODO add your handling code here:
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

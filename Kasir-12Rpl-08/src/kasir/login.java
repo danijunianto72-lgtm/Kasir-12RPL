@@ -15,7 +15,9 @@ public class login extends javax.swing.JFrame {
      */
     public login() {
         initComponents();
-    // Tapi khusus di txtPassword, pastikan juga Enter memicu login
+this.setResizable(false);
+this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+this.setVisible(true);
     jPass.addActionListener(evt -> btnLogin.doClick());
     }
 

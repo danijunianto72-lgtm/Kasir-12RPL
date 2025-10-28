@@ -221,6 +221,7 @@ lblPendapatan.setText(Session.getPendapatanHariIni());
         dateAwal = new com.toedter.calendar.JDateChooser();
         dateAkhir = new com.toedter.calendar.JDateChooser();
         btnTampilkan = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
         panel2 = new java.awt.Panel();
         jPanel14 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
@@ -474,7 +475,7 @@ lblPendapatan.setText(Session.getPendapatanHariIni());
                 dateAwalPropertyChange(evt);
             }
         });
-        jPanel13.add(dateAwal, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, 139, 30));
+        jPanel13.add(dateAwal, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, 150, 40));
 
         dateAkhir.setBackground(new java.awt.Color(189, 224, 216));
         dateAkhir.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -482,7 +483,7 @@ lblPendapatan.setText(Session.getPendapatanHariIni());
                 dateAkhirPropertyChange(evt);
             }
         });
-        jPanel13.add(dateAkhir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 125, 30));
+        jPanel13.add(dateAkhir, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 140, 40));
 
         btnTampilkan.setBackground(new java.awt.Color(189, 224, 216));
         btnTampilkan.setText("reset");
@@ -491,7 +492,10 @@ lblPendapatan.setText(Session.getPendapatanHariIni());
                 btnTampilkanActionPerformed(evt);
             }
         });
-        jPanel13.add(btnTampilkan, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 10, 89, 30));
+        jPanel13.add(btnTampilkan, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 10, 89, 40));
+
+        jLabel8.setText("_");
+        jPanel13.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(267, 20, 30, -1));
 
         jPanel2.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 1040, 390));
 
@@ -823,6 +827,7 @@ this.dispose();
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;

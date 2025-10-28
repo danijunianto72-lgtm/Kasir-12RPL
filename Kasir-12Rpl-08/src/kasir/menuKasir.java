@@ -628,6 +628,7 @@ private String generateNoTransaksi() {
         jPanel4 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
         tblRiwayat = new javax.swing.JTable();
         lblTotal = new javax.swing.JLabel();
@@ -1062,21 +1063,28 @@ private String generateNoTransaksi() {
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Riwayat Transaksi Hari Ini");
 
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("*Double Click untuk melihat detail tranaksi");
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel8)
-                .addContainerGap(204, Short.MAX_VALUE))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel14))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(jLabel8)
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel14)
+                .addContainerGap())
         );
 
         jPanel4.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
@@ -1099,7 +1107,7 @@ private String generateNoTransaksi() {
         });
         jScrollPane3.setViewportView(tblRiwayat);
 
-        jPanel4.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 230, 590));
+        jPanel4.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 230, 580));
 
         lblTotal.setText("txtTotal");
         jPanel4.add(lblTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 670, -1, -1));
@@ -1425,6 +1433,7 @@ jDialogBahan dialog = new jDialogBahan(this, true, this);
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
