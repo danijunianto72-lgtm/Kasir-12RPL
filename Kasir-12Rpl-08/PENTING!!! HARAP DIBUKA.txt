@@ -1,0 +1,3 @@
+buka proyek yang sudah di jadikan .jar di folder dist
+jika ingin membuild lagi, harap copy folder image dan masukkan kedalam dist lagi
+terimakasih 
