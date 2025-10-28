@@ -1,0 +1,10 @@
+CARA EKSTRACT DATABASE 
+	- buat database dengan nama dbRestoran
+	- klik restore 
+	- pilih format plain
+	- pergi browse, dan ubah tipe ke .sql
+	- pilih database dbRestoran
+	- untuk koneksinya Password 1234, jika beda maka sesuaikan di netbeans di file koneksi.java 
+	  atau ubah password di pgadmin
+
+	!!SEHABIS MENGUBAH KONEKSI HARAP DI CLEN DAN BUILD, DAN COPYKAN FOLDER IMAGE KEDLAM DIST!!
