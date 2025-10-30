@@ -8,3 +8,8 @@ CARA EKSTRACT DATABASE
 	  atau ubah password di pgadmin
 
 	!!SEHABIS MENGUBAH KONEKSI HARAP DI CLEN DAN BUILD, DAN COPYKAN FOLDER IMAGE KEDLAM DIST!!
+
+LOGIN DENGAN 
+username : admin
+password : admin123
+
